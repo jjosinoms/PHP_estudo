@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.navbar-default{
+	background-color: #8A2BE2;
+}
+
+.navbar-default li a{
+	color: black !important;
+}
+
+.navbar-default li a:hover{
+	color: #ccc !important;
+}
+
+.active2{
+	background-color: #A8B2EF;
+}
+
+.navbar-brand{
+	color: #fff !important;
+}
+
+#galeria-servicos img{
+	margin-top: 40px;
+	width: 100%;
+	
+	
+}
+
+#galeria-servicos a{
+	display: block;
+	background-color: #8A2BE2;
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#galeria-servicos p{
+	padding-top: 20px;
+}
+
+#galeria-servicos a:hover{
+	background-color: #A1BCF1;
+
+}
+
+#conteudo{
+	padding-top: 40px;
+	min-height: 200px;
+
+		
+}
+#conteudo h1{
+	text-align: center;
+	color: blue;	
+}
+#conteudo p{
+	padding-top: 30px;
+	text-align:justify;
+	padding-left: 15px;
+	}
+	
+#conteudo img{
+	padding-left: 15px;
+	margin-top: 40px;
+	width: 80%;
+	}
+	
+#galeria-servicos2 img{
+	margin-top: 40px;
+	width: 80%;
+	
+
+}
+
+#galeria-servicos2 a{
+	display: block;
+	background-color: #8A2BE2;
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+	margin-right: 122px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#galeria-servicos2 a:hover{
+	background-color: #A1BCF1;
+
+}
+
+#rodape{
+	background-color: #8A2BE2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+	margin-top: 50px;
+	min-height: 150px;
+}

@@ -1,0 +1,36 @@
+create database if not exists dbcontato; 
+use dbcontato;
+drop table if exists contato;
+create table contato( 
+id bigint primary key auto_increment, 
+nome varchar(255) not null,
+telefone varchar(255) not null,
+email varchar(255) not null 
+); 
+
+
+create database if not exists dbescola; 
+use dbescola;
+drop table if exists aluno;
+create table aluno( 
+    id bigint primary key auto_increment, 
+    matricula varchar(255) not null,
+    nome varchar(255) not null,
+    endereco varchar(255) not null, 
+	cep varchar(255) not null, 
+	telefone varchar(255) not null 
+); 
+
+
+
+use dbescola;
+drop table if exists professor;
+create table professor( 
+    id bigint primary key auto_increment, 
+    matricula varchar(255) not null,
+    area varchar(255) not null,
+    nome varchar(255) not null,
+    endereco varchar(255) not null, 
+	cep varchar(255) not null, 
+	telefone varchar(255) not null 
+); 

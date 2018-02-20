@@ -1,0 +1,48 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title></title>
+		<meta charset="UTF-8">
+			<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		  <!-- Compiled and minified CSS -->
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+		  <!-- Compiled and minified JavaScript -->
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+		</head>
+		<body>
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				$("h1").css({"color":"green"});
+			});
+		</script>
+		<div class="container">
+		    <!-- Navbar goes here -->
+
+		    <!-- Page Layout here -->
+		    <div class="row">
+
+		      <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+			<h1>Formulario de cadastro:</h1>
+			<form method="post" action="form_processamento.php">
+				<input type="text" name="nome" placeholder="Nome"><br><br>
+				<input type="number" name="idade" placeholder="Idade"><br><br>
+				<input type="text" name="cidade" placeholder="Cidade"><br><br>
+				<textarea placeholder="Endereço" name="endereco" rows="4"></textarea><br><br>
+				<input type="submit" value="enviar">
+			</form>
+		      </div>
+	</div>
+		<br>
+		</div>
+		</body>
+		</html>
